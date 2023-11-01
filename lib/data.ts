@@ -92,8 +92,10 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Bootstrap",
   "PostgreSQL",
   "MySQL",
   "Python",
   "PHP",
+  "Postman",
 ] as const;
