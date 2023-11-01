@@ -7,12 +7,12 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: 'Judell Mejorada',
   description: 'My Personal Vault',
-}
+};
 
 export default function RootLayout({
   children,
