@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import sample1 from "@/public/sample.png";
-import sample2 from "@/public/sample.png";
-import sample3 from "@/public/sample.png";
+import researchhub from "@/public/researchhub.png";
+import bitbo from "@/public/bitbo.png";
+import hrd from "@/public/hrd.png";
+import hs from "@/public/hs.png";
+
 
 export const links = [
   {
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Information Technology Intern",
     location: "Quezon City Local Government - City Real Estate Management and Control Office",
     description: "",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
   {
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Part-time Online Seller",
     location: "Quezon City | Various Online Platforms",
     description:"",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2019 - present",
   },
 ] as const;
@@ -61,23 +61,27 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "BitBo: Barangay Management System",
-    description: "",
+    description: "This system are composed of barangay blotter, somun, certificates, permit, and appointment .",
     tags: ["Vue.js", "PostgreSQL", "API", "AWS"],
-    imageUrl: sample1,
+    imageUrl: bitbo,
   },
   {
     title: "HappySmile: Dental Clinic Management System",
-    description:
-      "",
-    tags: ["Node.js", "Tailwind", "Heroku"],
-    imageUrl: sample2,
+    description: "This intends to provide an efficient to manage appointments and related activities",
+    tags: ["Node.js", "Bootstrap", "Heroku", "PHP", "CodeIgniter", "MySQL", "API"],
+    imageUrl: hs,
   },
   {
     title: "ResearchHub: Research Management System",
-    description:
-      "",
-    tags: [ "SQL", "Tailwind", "Vercel"],
-    imageUrl: sample3,
+    description:"This was created to assist the university and staff in managing researchers and their researches through a one system.",
+    tags: [ "SQL", "Tailwind", "Vercel", "Railway", "React.JS"],
+    imageUrl: researchhub,
+  },
+  {
+    title: "Elysium:",
+    description:"This was intended to help the landlord and the tenant to monitor their rent.",
+    tags: [ "PHP", "Bootstrap", "MySQL"],
+    imageUrl: hrd,
   },
 ] as const;
 
@@ -85,16 +89,12 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
   "Bootstrap",
   "PostgreSQL",
   "MySQL",
-  "Python",
   "PHP",
   "Postman",
 ] as const;
