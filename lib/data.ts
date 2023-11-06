@@ -61,13 +61,13 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "BitBo: Barangay Management System",
-    description: "This system are composed of barangay blotter, somun, certificates, permit, and appointment .",
+    description: "This system are composed of barangay blotter, certificates, permits, and appointment .",
     tags: ["Vue.js", "PostgreSQL", "API", "AWS"],
     imageUrl: bitbo,
   },
   {
     title: "HappySmile: Dental Clinic Management System",
-    description: "This intends to provide an efficient to manage appointments and related activities",
+    description: "This was intended to provide an efficient way to manage appointments and related activities",
     tags: ["Node.js", "Bootstrap", "Heroku", "PHP", "CodeIgniter", "MySQL", "API"],
     imageUrl: hs,
   },
@@ -79,7 +79,7 @@ export const projectsData = [
   },
   {
     title: "Elysium:",
-    description:"This was intended to help the landlord and the tenant to monitor their rent.",
+    description:"This was intended to help the landlord and tenant to monitor their rent.",
     tags: [ "PHP", "Bootstrap", "MySQL"],
     imageUrl: hrd,
   },

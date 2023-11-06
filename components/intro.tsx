@@ -62,10 +62,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Judell</span> an{" "}
+        <span className="font-bold">Hello, I'm Judell.</span> I am an{" "}
         <span className="font-bold"></span> IT Graduate{" "}
         <span className="font-bold">since October 2023.</span> I am keen on
-        mastering<span className="italic"> <br/> my ability to solve and adapt.</span>
+        honing<span className="italic"> <br/> my ability to solve and adapt.</span>
         
       </motion.h1>
 
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/sample.docx"
+          href="/judellmejorada-resume.docx"
           download
         >
           Download Resume{" "}
