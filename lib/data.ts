@@ -35,27 +35,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "IT Intern",
-    location: "",
-    description:
-      "",
+    title: "Information Technology Intern",
+    location: "Quezon City Local Government - City Real Estate Management and Control Office",
+    description: "",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Panelist | Lead Developer | Backend Developer",
-    location: "",
+    location: "Polytechnic University of the Philippines - Quezon City Branch",
     description:
       "",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
   {
     title: "Part-time Online Seller",
-    location: "",
+    location: "Quezon City | Various Online Platforms",
     description:"",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2019 - present",
   },
 ] as const;
 
